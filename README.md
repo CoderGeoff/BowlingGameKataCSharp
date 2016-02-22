@@ -1,5 +1,5 @@
 # Bowling Game Kata
-The start of the classic bowling game kata, in C++ with CppUnit
+The start of the classic bowling game kata, in C# with Nunit
 For Visual Studio 2013 
 
 This is the well-known "Bowling Game Kata". It's presented here as an introduction to TDD.
@@ -37,10 +37,10 @@ A player who rolls a spare or strike in the tenth frame is allowed to roll extra
 
 1. Clone the repository. This creates a new git repository on your local machine.
 2. Open the solution file in Visual Studio.
-There are two projects. BowlingGameKata is an empty project, where you will develop the BowlingGame class. BowlingGameKataTests is the project where you will develop the tests.
-BowlingGameKata already contains a file, BowlingGameTests.cpp, which contains the skeleton of your first test. 
+There are two projects. BowlingGame is an empty project, where you will develop the BowlingGame class. BowlingGameKataTests is the project where you will develop the tests.
+BowlingGameTests already contains a file, BowlingGameTests.cpp, which contains the skeleton of your first test. 
 3. Build the solution.
-4. Run the test executable, Debug\BowlingGameKataTests.exe. It should output
+4. Run the test executable, Debug\BowlingGameTests.exe. It should output
 
 ```
 OK (1)
